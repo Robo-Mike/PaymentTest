@@ -1,0 +1,11 @@
+C:\Users\miker\Documents\Visual Studio 2015\Projects\ClearBank\ClearBank.DeveloperTest\ClearBank.DeveloperTest\bin\Debug\ClearBank.DeveloperTest.dll
+C:\Users\miker\Documents\Visual Studio 2015\Projects\ClearBank\ClearBank.DeveloperTest\ClearBank.DeveloperTest\bin\Debug\ClearBank.DeveloperTest.pdb
+C:\Users\miker\Documents\Visual Studio 2015\Projects\ClearBank\ClearBank.DeveloperTest\ClearBank.DeveloperTest\bin\Debug\Castle.Core.dll
+C:\Users\miker\Documents\Visual Studio 2015\Projects\ClearBank\ClearBank.DeveloperTest\ClearBank.DeveloperTest\bin\Debug\Moq.dll
+C:\Users\miker\Documents\Visual Studio 2015\Projects\ClearBank\ClearBank.DeveloperTest\ClearBank.DeveloperTest\bin\Debug\nunit.framework.dll
+C:\Users\miker\Documents\Visual Studio 2015\Projects\ClearBank\ClearBank.DeveloperTest\ClearBank.DeveloperTest\bin\Debug\Castle.Core.xml
+C:\Users\miker\Documents\Visual Studio 2015\Projects\ClearBank\ClearBank.DeveloperTest\ClearBank.DeveloperTest\bin\Debug\Moq.pdb
+C:\Users\miker\Documents\Visual Studio 2015\Projects\ClearBank\ClearBank.DeveloperTest\ClearBank.DeveloperTest\bin\Debug\Moq.xml
+C:\Users\miker\Documents\Visual Studio 2015\Projects\ClearBank\ClearBank.DeveloperTest\ClearBank.DeveloperTest\bin\Debug\nunit.framework.xml
+C:\Users\miker\Documents\Visual Studio 2015\Projects\ClearBank\ClearBank.DeveloperTest\ClearBank.DeveloperTest\obj\Debug\ClearBank.DeveloperTest.dll
+C:\Users\miker\Documents\Visual Studio 2015\Projects\ClearBank\ClearBank.DeveloperTest\ClearBank.DeveloperTest\obj\Debug\ClearBank.DeveloperTest.pdb
