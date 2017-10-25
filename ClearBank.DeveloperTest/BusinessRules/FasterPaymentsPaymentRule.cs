@@ -1,17 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ClearBank.DeveloperTest.Types;
+﻿using ClearBank.DeveloperTest.Types;
 
 namespace ClearBank.DeveloperTest.BusinessRules
 {
-    public class FasterPaymentsPaymentRule:BasePaymentRule, IPaymentRule
+    public class FasterPaymentsPaymentRule:IPaymentRule
     {
+        private readonly IAccountSuitableRule _accountSuitableRule;
+
+        public FasterPaymentsPaymentRule(IAccountSuitableRule accountSuitableRule)
+        {
+            _accountSuitableRule = accountSuitableRule;
+        }
         public bool IsPaymentAllowed(Account account, decimal amount)
         {
-            if (this.IsAccountSuitable(account,AllowedPaymentSchemes.FasterPayments) 
+            if (_accountSuitableRule.IsAccountSuitable(account,AllowedPaymentSchemes.FasterPayments) 
                 && account.Balance >= amount)
             {
                 return true;

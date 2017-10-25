@@ -2,12 +2,18 @@
 
 namespace ClearBank.DeveloperTest.BusinessRules
 {
-    public class ChapsPaymentRule : BasePaymentRule, IPaymentRule
+    public class ChapsPaymentRule: IPaymentRule
     {
-        
-            public bool IsPaymentAllowed(Account account, decimal amount)
+        private readonly IAccountSuitableRule _accountSuitableRule;
+
+        public ChapsPaymentRule(IAccountSuitableRule accountSuitableRule)
+        {
+            _accountSuitableRule = accountSuitableRule;
+        }
+
+        public bool IsPaymentAllowed(Account account, decimal amount)
             {
-                if (this.IsAccountSuitable(account,AllowedPaymentSchemes.Chaps)
+                if (_accountSuitableRule.IsAccountSuitable(account,AllowedPaymentSchemes.Chaps)
                     && account.Status == AccountStatus.Live)
                 {
                     return true;

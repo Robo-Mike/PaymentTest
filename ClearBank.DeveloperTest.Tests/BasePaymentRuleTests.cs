@@ -8,7 +8,7 @@ namespace ClearBank.DeveloperTest.Tests
     [TestClass]
     public class BasePaymentRuleTests
     {
-        private BasePaymentRule _paymentRule = new BasePaymentRule();
+        private readonly AccountSuitableRule _paymentRule = new AccountSuitableRule();
 
 
         [TestMethod]
@@ -28,4 +28,7 @@ namespace ClearBank.DeveloperTest.Tests
             Assert.IsTrue(_paymentRule.IsAccountSuitable(bacsAccount, AllowedPaymentSchemes.Bacs));
         }
     }
+
+    //add tests for other payment schemes
+
 }

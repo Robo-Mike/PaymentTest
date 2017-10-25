@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ClearBank.DeveloperTest.Types;
+﻿using ClearBank.DeveloperTest.Types;
 
 namespace ClearBank.DeveloperTest.BusinessRules
 {
-    public class BasePaymentRule
+    public class AccountSuitableRule : IAccountSuitableRule
     {
         public  bool IsAccountSuitable(Account account, AllowedPaymentSchemes scheme)
         {

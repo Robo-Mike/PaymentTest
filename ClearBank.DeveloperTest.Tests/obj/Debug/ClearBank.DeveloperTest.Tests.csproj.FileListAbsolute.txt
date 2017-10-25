@@ -17,3 +17,4 @@ C:\Users\miker\Documents\Visual Studio 2015\Projects\ClearBank\ClearBank.Develop
 C:\Users\miker\Documents\Visual Studio 2015\Projects\ClearBank\ClearBank.DeveloperTest\ClearBank.DeveloperTest.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\miker\Documents\Visual Studio 2015\Projects\ClearBank\ClearBank.DeveloperTest\ClearBank.DeveloperTest.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\miker\Documents\Visual Studio 2015\Projects\ClearBank\ClearBank.DeveloperTest\ClearBank.DeveloperTest.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\miker\Documents\Visual Studio 2015\Projects\ClearBank\ClearBank.DeveloperTest\ClearBank.DeveloperTest.Tests\bin\Debug\ClearBank.DeveloperTest.Tests.dll.config
